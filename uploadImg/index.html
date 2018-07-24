@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>单次多张上传图片</title>
+  <link rel="stylesheet" href="index.css" />
+  <script  type="application/javascript" src="jquery.min.js"></script>
+  <script  type="application/javascript" src="index.js"></script>
+</head>
+<body>
+  <div class="communityEdit">
+    <div class="page-content">
+      <form id="communityForm"  enctype="multipart/form-data" action="POST">
+        <ul>
+          <li class="bankuai">
+            <select class="" name="plateId" id="plateId">
+              <option value="-1">请选择板块</option>
+              <option value="1">世界杯66</option>
+              <option value="3">活动</option>
+              <option value="5">美妆博主</option>
+              <option value="6">杂谈</option>
+            </select>
+          </li>
+          <li class="title">
+              <input type="text" placeholder="标题" name="title" id="title">
+          </li>
+          <li>
+              <textarea type="text" placeholder="分享点新鲜事..." class="PLcontent" name="detail" id="PLcontent"></textarea>
+          </li>
+        </ul>
+      </form>
+    </div>
+    <div class="toolbar ">
+      <button onclick="addImg()">添加图片</button>
+    </div>
+  </div>
+</body>
+</html>
+

@@ -1,0 +1,9 @@
+
+.communityEdit ul{margin:0;padding: 0;}
+.communityEdit li{list-style-type: none;margin:20px 0; }
+.communityEdit .uploadImg img{width:100px;}
+.communityEdit .uploadImg .item-inner{position: relative;}
+.communityEdit .uploadImg .uploadInput{position: absolute;left: 0;top: 15px;width: 90%;height:100px;opacity: 0;z-index: 100;}
+.communityEdit .uploadImg .item-img{position: relative;}
+.communityEdit .uploadImg .item-img img{width: 100%;}
+.communityEdit .uploadImg .delete-btn{position: absolute;right: 6px;top:-8px;font-size: 30px;}
